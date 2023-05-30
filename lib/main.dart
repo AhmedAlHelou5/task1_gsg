@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:task1_gsg/secound_screen.dart';
+import 'package:task1_gsg/profile_screen/profile.dart';
+import 'package:task1_gsg/task1/secound_screen.dart';
+import 'package:task1_gsg/task2/screen_one.dart';
+import 'package:task1_gsg/task2/screen_two.dart';
 
-import 'home_sceen.dart';
+import 'task1/home_sceen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: SecondScreen(),
+      home: ScreenTwo(),
     );
   }
 }
